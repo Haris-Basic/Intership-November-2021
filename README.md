@@ -24,6 +24,7 @@ nakon sto se registrujete, na navigacijskom dijelu cete dobiti novo dugme "Admin
 otvara vam se novi page gdje imate vise ponudjeni funkcijonalnosti. Vi odaberite dodavanje vozila,
 i dodajte nekoliko vozila i tek nakon dodavanja ce artikli biti prikazani na pocetnom page-u, time ce
 podaci ostati u bazi podataka i nakon sto se odjavite moci cete pregledati ponudjene artikle (vozila).
+Naravno koristite i ostale funkcionalnosti :D!
 
 Uz ovu MVC aplikaciju, postoji i Angular u kojem je razvijeno dodavanje brendova  vozila i modela za brand, 
 i ostale Crud operacije za te podatake.

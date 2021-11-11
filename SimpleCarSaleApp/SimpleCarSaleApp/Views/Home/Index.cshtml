@@ -1,0 +1,25 @@
+﻿@using SimpleCarSaleApp.Models
+@model List<ShowCarsVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="display-1">Cars for rent</h1>
+<hr />
+@if (Model.Any())
+{
+    @foreach (var item in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-body text-dark">
+
+                <img style="width: 20rem; height: auto;" src="@item.images.FirstOrDefault()" alt="slika" />
+
+                <h5 class="card-title" ;>@item.Brand @item.CarModel </h5>
+                <hr />
+                <a class="btn btn-primary" asp-controller="Admin" asp-action="CarDetails" asp-route-carID="@item.CarId">More</a>
+            </div>
+        </div>
+    }
+}
+

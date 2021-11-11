@@ -1,0 +1,26 @@
+﻿@model SimpleCarSaleApp.Data.ApplicationDbContext
+<h1>Index</h1>
+
+Color: @Model.Color.Count()
+<br />
+
+Brand: @Model.Brand.Count()
+<br />
+
+Drive type: @Model.DriveType.Count()
+<br />
+
+Vehicle type: @Model.VehicleType.Count()
+<br />
+
+Fuel: @Model.Fuel.Count()
+<br />
+
+Transmission: @Model.Transmission.Count()
+<br />
+
+Models:  @Model.CarModel.Count()
+<br />
+
+<a asp-controller="Home" asp-action="Index">Back</a>
+

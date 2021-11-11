@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>
+    Work space
+</h1>
+
+<hr style="color:goldenrod" />
+
+<div class="card">
+    <div class="card-header text-dark">
+        Add car
+    </div>
+    <div class="card-body text-dark">
+        <a class="btn btn-outline-primary" asp-area="" asp-controller="Admin" asp-action="AddCar">Add</a>
+    </div>
+</div>
+
+<hr style="color:goldenrod" />
+
+<div class="card">
+    <div class="card-header text-dark">
+        Car list
+    </div>
+    <div class="card-body text-dark">
+        <a class="btn btn-outline-primary" asp-area="" asp-controller="Home" asp-action="Index">View</a>
+    </div>
+</div>
+
+<hr style="color:goldenrod" />
+
+<div class="card">
+    <div class="card-header text-dark">
+        Remove car from the list
+    </div>
+    <div class="card-body text-dark">
+        <a class="btn btn-outline-primary" asp-controller="Admin" asp-action="RemoveCar">Remove</a>
+    </div>
+</div>
+
+<hr style="color:goldenrod" />
+
+<div class="card">
+    <div class="card-header text-dark">
+        Finished items(cars)
+    </div>
+    <div class="card-body text-dark">
+        <a class="btn btn-outline-primary" asp-controller="Admin" asp-action="ShowDeletedCars">View</a>
+    </div>
+</div>

@@ -10,7 +10,7 @@ MS SQL Server https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 Nakon sto otvorite aplikaciju u Visual Studio-u ucinite sve potrebno opisano u nastavku!
 
 Podaci se nalaze na SQL serveru, vec postoje migracije, tako da je potreno u 
-Package Manager Console upisati komandu update-databae, i time bi na localhost serveru
+Package Manager Console upisati komandu update-database, i time bi na localhost serveru
 bila dodana baza podataka sa odgovarajucim tabelama.
 
 Nakon sto se izvrsi ubdate baze podataka, moguce je pokreniti aplikaciju.

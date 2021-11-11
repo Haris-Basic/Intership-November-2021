@@ -29,4 +29,6 @@ Naravno koristite i ostale funkcionalnosti :D!
 Uz ovu MVC aplikaciju, postoji i Angular u kojem je razvijeno dodavanje brendova  vozila i modela za brand, 
 i ostale Crud operacije za te podatake.
 
+Angular : https://github.com/Haris-Basic/Intership-Angular-I/tree/angular-branch
+
 
